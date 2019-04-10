@@ -1,0 +1,67 @@
+/*******************************************
+curriculum3
+Author: robertoalam@uol.com.br
+*******************************************/
+
+/*******************************************
+SETTINGS
+*******************************************/
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+@-webkit-print-color-adjust: exact; 
+
+
+/*******************************************
+BODY
+*******************************************/
+h1{font-size:36pt !important; font-weight:bold;}
+#foto { float:left }
+#foto img { max-height:100%; }
+#devops {display:none;}
+
+.separador{padding-bottom:10px;}
+header {border-bottom:2px solid black;padding-bottom:10px;}
+header  hr{height:1px !important ; border:1px solid black !important}
+ul{padding:0px;}
+ul li{list-style:none;}
+.progress-bar{display:none;}
+#habilidades{ float:left;width:100%}
+#habilidades ul {margin-left:0px;padding-left:0px;float:left;width:100%}
+#habilidades ul li {margin-left:0px;padding-left:0px;list-style:none;float:left;width:24.5%}
+#habilidades ul li div img{ display:table;}
+#habilidades ul li label{ float:left; margin-left:10px;margin-top:-40px !important; top:-20px ;}
+#habilidades ul li label i{ float:left;margin-top:3px;color:white !important;text-shadow: 2px 2px black !important;z-index:999;position:absolute;}
+#habilidades ul li label span{ float:left;margin-left:5px;color:white !important;text-shadow: 2px 2px black !important;z-index:999;position:absolute;}
+
+
+#contato {width:100% !important;}
+#contato aside{width:100% !important;}
+#contato ul{width:100% !important;}
+#contato ul li{margin:5px 0;width:23.5%; }
+#contato ul li:first-child{margin-top:-5px;}
+#contato ul li i{float:left;}
+#contato ul li label{float:left; }
+#contato ul li div{font-weight:bold;}
+
+.progress.active{border: 1px solid gray}
+
+div span.ano{margin:0 auto;font-weight:bold;}
+.fundo{background:#F0563E;width:100%;display:table;height:10px;margin-bottom:-25px;margin-top:10px}
+.ano{width:100px;background:#F0563E;color:black;padding:10px 5px;display:block;text-align:center;}
+.instituicao{display:block;text-align:center;font-size:12pt;font-weight:bold;}
+.funcao{display:block;text-align:center;font-size:9pt;}
+
+#contato { }
+#contato  aside{ display:table; }
+
+#graduacao {}
+#graduacao  ul{margin-left:0px;padding:0px;}
+#graduacao  ul li{float:left !important; width:24.5% !important;}
+#experiencia{}
+#experiencia ul {margin-left:0px;padding:0px;}
+#experiencia ul  li{float:left !important; width:24.5% !important;}

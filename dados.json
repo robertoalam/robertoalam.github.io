@@ -1,0 +1,53 @@
+{
+	"dados": 
+	[{
+		"nome":"Roberto Aguiar Alam",
+		"sobre":"Me chamo Roberto Aguiar Alam, natural da cidade de Porto Alegre, boa parte da minha vida acadêmica e profissional foi na cidade de Pelotas. Meu primeiro contato com a informática foi no curso técnico. Me considero uma pessoa proativa, a insegurança do desconhecido não me desmotiva, pelo contrário, me serve de combustível para buscar cada vez mais conhecimento , assim enfretando as tarefas do dia a dia de uma maneira mais positiva. Outra qualidade que creio possuir, é a de ser uma pessoa colaborativa , isso me ajudou a trabalhar com uma gama muito grande de pessoas. ",
+		"contato":[
+			{"nome":"pagina","icone":"","valor":"ww"},
+			{"nome":"email","icone":"","valor":"robertoaa1981@gmail.com"},
+			{"nome":"linkedin","icone":"","valor":"linkedin.com/in/roberto-alam-95522424/"},
+			{"nome":"skype","icone":"","valor":"scarapa"}
+		],
+		"habilidades":[
+			{"nome":"Apache","nota":35,"icone":"cbp-ig-icon devicon-apache-plain"},
+			{"nome":"Linux/Debian","nota":50,"icone":"cbp-ig-icon devicon-linux-plain"},
+			{"nome":"Docker","nota":25,"icone":"cbp-ig-icon devicon-docker-plain"},
+			{"nome":"Virtual Box","nota":50,"icone":"cbp-ig-icon devicon-docker-plain"},
+			{"nome":"SQLServer","nota":70,"icone":"fa fa-database"},
+			{"nome":"MySQL","nota":70,"icone":"cbp-ig-icon devicon-mysql-plain"},
+			{"nome":"PostgreSQL","nota":70,"icone":"cbp-ig-icon devicon-postgresql-plain"},
+			{"nome":"GIT","nota":65,"icone":"cbp-ig-icon devicon-git-plain"},
+			{"nome":"HTML5","nota":85,"icone":"cbp-ig-icon devicon-html5-plain"},
+			{"nome":"CSS3","nota":80,"icone":"cbp-ig-icon devicon-css3-plain"},
+			{"nome":"PHP","nota":90,"icone":"cbp-ig-icon devicon-php-plain"},
+			{"nome":"Laravel","nota":40,"icone":"cbp-ig-icon devicon-laravel-plain"},
+			{"nome":"Codeigniter","nota":40,"icone":"cbp-ig-icon devicon-codeigniter-plain"},
+			{"nome":"Javascript","nota":50,"icone":"cbp-ig-icon devicon-javascript-plain"},
+			{"nome":"jQuery","nota":70,"icone":"cbp-ig-icon devicon-jquery-plain"},
+			{"nome":"nodeJS","nota":15,"icone":"cbp-ig-icon devicon-nodejs-plain"},
+			{"nome":"Ionic","nota":35,"icone":""},
+			{"nome":"Python","nota":15,"icone":"cbp-ig-icon devicon-python-plain"}
+		],
+		"Graduação":[
+			{"periodo":"1997-1999","instituicao":"Colégio Santa Margarida","titulacao":"Téc Informatica","tempo":""},
+			{"periodo":"2013","instituicao":"UCPEL - Universidade Católica de Pelotas","titulacao":"Projetista de Sistemas de Informação","tempo":"460 horas"},
+			{"periodo":"2013","instituicao":"UCPEL - Universidade Católica de Pelotas","titulacao":"Programador de Computadores","tempo":"420 horas"},
+			{"periodo":"2010-2013","instituicao":"UCPEL - Universidade Católica de Pelotas","titulacao":"Bacharel Ciência da Computação","tempo":""},
+			{"periodo":"09/2014","instituicao":"TargetTrust","titulacao":"Orientação a objetos com UML","tempo":"20 horas"},
+			{"periodo":"09/2014","instituicao":"TargetTrust","titulacao":"PHP - Orientados a objetos","tempo":"20 horas"},
+			{"periodo":"10/2014","instituicao":"TargetTrust","titulacao":"Padrões web 2.0","tempo":"20 horas"},
+			{"periodo":"10/2014","instituicao":"TargetTrust","titulacao":"Javascript","tempo":"20 horas"},
+			{"periodo":"2016","instituicao":"SISNEMAS","titulacao":"Desenvolvedor ANDROID","tempo":"20 horas"},
+			{"periodo":"07/2017-07/2018","instituicao":"UNOPAR","titulacao":"Pós Graduação em Tecnologias Para Aplicações Web","tempo":"360 horas"}
+		],
+		"Experiências":[
+			{"instituicao":"CEEE","titulacao":"Estagiario de Analista de Sistemas","periodo":"2012-2013","Resonsabilidades":[""]},
+			{"instituicao":"Gestor SA","titulacao":"Programador Junior","periodo":"07/2012","Resonsabilidades":[""]},
+			{"instituicao":"Victus Tecnologia e Informação","titulacao":"Técnico em Informática","periodo":"2011-2012","Resonsabilidades":[""]},
+			{"instituicao":"Mertins & Mertins","titulacao":"Analista de Sistemas","periodo":"2013-2014","Resonsabilidades":[""]},
+			{"instituicao":"EMATER/RS-ASCAR","titulacao":"Analista de Sistemas","periodo":"07/2014","Resonsabilidades":[""]},
+			{"instituicao":"","titulacao":"","periodo":"","Resonsabilidades":[""]}
+		]
+	}]
+}

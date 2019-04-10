@@ -1,0 +1,52 @@
+/*******************************************
+curriculum
+Author: robertoaa1981@gmail.com
+
+SETTINGS
+*******************************************/
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+@-webkit-print-color-adjust: exact; 
+
+
+/*******************************************
+BODY
+*******************************************/
+h1{font-size:26pt !important; font-weight:bold;}
+#foto { float:left }
+#foto img { max-height:100%; }
+
+.secoes{width:100%;}
+.tabelaHabilidade{float:left;margin:15px !important; border:2px solid black;}
+.tabelaHabilidade > tbody > tr td{border-bottom: 1px solid gray;}
+.tabelaHabilidade > tbody > tr td:nth-child(1) { font-size:150%;font-weight: bold;padding:0 5px; }
+.tabelaHabilidade > tbody > tr td:nth-child(2) { text-align: center;font-style: italic; }
+.tabelaHabilidade > tbody > tr td:nth-child(3) {font-size: 130%;padding:2px 3px;}			
+
+#tabelaGraduacao {border-collapse: collapse;}
+#tabelaGraduacao > thead > tr > th{text-align: center}
+#tabelaGraduacao > tbody > tr td{border-bottom:1px solid #eee;}
+#tabelaGraduacao > tbody > tr td:nth-child(1) {text-align: center;}
+#tabelaGraduacao > tbody > tr td:nth-child(2) {text-align: right;padding:2px 5px;}
+#tabelaGraduacao > tbody > tr td:nth-child(3) {text-align: left;padding:2px 5px;}
+
+#tabelaExperiencia {border-collapse: collapse;}
+#tabelaExperiencia > tbody > tr td{border-bottom:1px solid #eee;}
+#tabelaExperiencia > tbody > tr td:nth-child(1) {
+	text-align: center;
+	vertical-align: top !important;
+}
+#tabelaExperiencia > tbody > tr td:nth-child(2) {
+	vertical-align: top !important;
+	text-align: center;
+	padding:2px 5px;
+	font-family: 'Lucida Sans',sans-serif;
+	font-weight: bold;
+}
+
+#tabelaContato {float:left;margin-right: 15px}

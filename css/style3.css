@@ -1,0 +1,96 @@
+﻿/*******************************************
+curriculum3
+Author: robertoalam@uol.com.br
+*******************************************/
+
+/*******************************************
+SETTINGS
+*******************************************/
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+/*******************************************
+BODY
+*******************************************/
+#foto { text-align:center; }
+#foto img { max-height:100%; }
+#devops {text-align:center}
+
+.separador{border-top:2px solid #F0563E;padding-bottom:10px;}
+header {border-bottom:2px solid #F0563E;padding-bottom:10px;}
+header  hr{height:25px !important;color:#F0563E;border:1px solid #F0563E;background:#F0563E}
+ul{padding:0px;}
+ul li{list-style:none;}
+#contato {}
+#contato ul{padding:0px;margin-left:0px;}
+#contato ul li{display:inline-block;margin:2px 0 0 0;width:100%; }
+#contato ul li i{float:left;}
+#contato ul li label{float:left; }
+#contato ul li div{font-weight:bold;word-wrap:break-word;}
+
+#habilidades{ border-right:2px solid #F0563E; }
+#habilidades ul {margin-left:0px;padding-left:0px;float:left;width:100%}
+#habilidades ul li {margin-left:0px;padding-left:0px;list-style:none;float:left;}
+#habilidades div ul li div { float:left !important;width:50%;}
+#habilidades ul li div img{ display:none;}
+#habilidades ul li label{ float:left; margin-left:10px;margin-top:-40px !important; top:-20px }
+#habilidades ul li label i{ float:left;}
+#habilidades ul li label i{ float:left;margin-top:3px}
+#habilidades ul li label i.cbp-ig-icon {font-size:130%;margin-top:0px}
+#habilidades ul li label span{ float:left;margin-left:5px}
+#habilidades ul li label span.percencutal{ float:left;margin-left:5px}
+
+.progress.active{border: 1px solid gray}
+
+div span.ano{margin:0 auto;font-weight:bold;}
+.fundo{background:#F0563E;width:100%;display:table;height:10px;margin-bottom:-25px;margin-top:10px}
+.ano{width:100px;background:#F0563E;color:black;padding:10px 5px;display:block;text-align:center;}
+.instituicao{display:block;text-align:center;font-size:12pt;font-weight:bold;}
+.funcao{display:block;text-align:center;font-size:9pt;}
+
+#contato { }
+#contato  aside{ display:table; }
+
+#graduacao {margin-top:45px;}
+#graduacao ul{margin-left:0px;padding:0px;}
+#graduacao ul li{list-style:none;padding:0px !important;margin-bottom:30px !important;}
+
+#experiencia{margin-top:45px;}
+#experiencia ul {margin-left:0px;padding:0px;}
+#experiencia ul  li{list-style:none;padding:0px !important;margin-bottom:30px !important;}
+
+@media (max-width: 768px) { 
+	.separador { border:0px; }
+	#habilidades { border:0px ; }
+}
+
+
+@media(min-width:992px){
+	#graduacao ul li:last-child .fundo:after{float:right;content:"\f04b";  font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		color: #F0563E;
+		font-size: 24pt;
+		padding-right: 0.5em;
+		position: absolute;
+		top: -6px;
+		right: -30px;
+	}
+	#experiencia ul li:last-child .fundo:after{float:right;content:"\f04b";  font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		color: #F0563E;
+		font-size: 24pt;
+		padding-right: 0.5em;
+		position: absolute;
+		top: -6px;
+		right: -30px;
+	}
+		
+	
+}
