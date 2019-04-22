@@ -17,6 +17,8 @@ SETTINGS
 /*******************************************
 BODY
 *******************************************/
+.print {display:block;}
+.no-print { display:none; }
 h1{font-size:26pt !important; font-weight:bold;}
 #foto { float:left }
 #foto img { max-height:100%; }
@@ -50,3 +52,4 @@ h1{font-size:26pt !important; font-weight:bold;}
 }
 
 #tabelaContato {float:left;margin-right: 15px}
+.progress.active{border: 1px solid gray}

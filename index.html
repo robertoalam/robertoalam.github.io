@@ -21,44 +21,7 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <style>
-        	.secoes{width:100%;border-bottom:4px solid #333}
-        	.tabelaNota{ border-collapse: collapse; }
-        	.tabelaNota tr td{ 
-        		height:15px;
-        		background: #f0563d url('img/pixel_01.png') repeat-x;
-        		width:80px;
-        	}
 
-        	.tabelaHabilidade{float:left;margin:15px 25px; border:0px;}
-			.tabelaHabilidade > tbody > tr td{border-bottom: 1px solid gray;}
-			.tabelaHabilidade > tbody > tr td:nth-child(1) {
-		 		font-size:150%;font-weight: bold;padding:0 5px;
-			}
-			.tabelaHabilidade > tbody > tr td:nth-child(2) {text-align: center;font-style: italic;}
-			.tabelaHabilidade > tbody > tr td:nth-child(3) {font-size: 130%;padding:2px 3px;}	
-
-			#tabelaGraduacao {border-collapse: collapse;}
-			#tabelaGraduacao > thead > tr > th{text-align: center}
-			#tabelaGraduacao > tbody > tr td{border-bottom:1px solid #eee;}
-			#tabelaGraduacao > tbody > tr td:nth-child(1) {text-align: center;}
-			#tabelaGraduacao > tbody > tr td:nth-child(2) {text-align: right;padding:2px 5px;}
-			#tabelaGraduacao > tbody > tr td:nth-child(3) {text-align: left;padding:2px 5px;}
-
-			#tabelaExperiencia {border-collapse: collapse;}
-			#tabelaExperiencia > tbody > tr td{border-bottom:1px solid #eee;}
-			#tabelaExperiencia > tbody > tr td:nth-child(1) {
-				text-align: center;
-				vertical-align: top !important;
-			}
-			#tabelaExperiencia > tbody > tr td:nth-child(2) {
-				vertical-align: top !important;
-				text-align: center;
-				padding:2px 5px;
-				font-family: 'Lucida Sans',sans-serif;
-				font-weight: bold;
-			}
-
-			#tabelaContato {float:left;margin-right: 15px}
         </style>
 	</head>
 	<body>
@@ -71,403 +34,160 @@
 			</div>
 			<hr>
 
-			<img src="img/beto.jpg" class="img-thumbnail" style="width:150px;float:left;margin:5px 15px 15px 15px">
-			Me chamo Roberto Aguiar Alam, natural da cidade de Porto Alegre, porém boa parte da minha vida acadêmica e profissional foi na cidade de Pelotas. Meu primeiro contato com a informática foi no ano de 1997 no curso técnico em informática,no colégio Santa Margarida. Naquela época os sistemas/programas eram feitos em <b>CLIPPER</b> e/ou <b>PASCAL</b> e tinham a aparência do DOS ou do terminal linux, as impressoras eram matriciais, fazima impressões de uma folha por minuto e a internet ainda estava em propriedade das instituições de ensino particulars ou governamentais ou departamentos do governo, desde então muita coisa mudou.
-			<br><br>
-
-			Considero-me uma pessoa proativa, a insegurança do desconhecido não me desmotiva, pelo contrário, me serve de combustível para buscar cada vez mais conhecimento, tal conhecimento me traz mais segurança pra enfrentar as tarefas rotineiras do dia a dia de uma maneira mais positiva.
-			<br><br>
-
-			Outra qualidade que creio possuir, é a de ser uma pessoa colaborativa, essa qualidade me ajuda a trabalhar com uma gama muito grande de pessoas de uma maneira muito tranquila e positiva.
+			
+			<div id="foto">
+				<img src="img/beto.jpg" class="img-thumbnail" style="width:150px;float:left;margin:5px 15px 15px 15px">
+			</div>
+			<div id="sobre"></div>
 		</header>
 		<br claer="all">
 		<br claer="all">
 		
 		<h1 class="secoes"><i class="fa fa-gears"></i> HABILIDADES</h1>		
-		<table class="tabelaHabilidade">
-			<tbody>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-apache-plain"></i></td>
-					<td>Apache</td>
-					<td class="nivel" rel="35">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>					
-				<tr>
-					<td><i class="cbp-ig-icon devicon-linux-plain"></i></td>					
-					<td>Linux/Debian</td>
-					<td class="nivel" rel="50">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>						
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-docker-plain"></i></td>					
-					<td>Docker</td>
-					<td class="nivel" rel="25">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>	
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-docker-plain"></i></td>
-					<td>Vagrant</td>
-					<td class="nivel" rel="50">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>	
-					</td>
-				</tr>
-				<tr>
-					<td><i class="fa fa-database"></i></td>					
-					<td>SQLServer</td>
-					<td class="nivel" rel="70">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-mysql-plain"></i></td>					
-					<td>MySQL</td>
-					<td>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<table class="tabelaHabilidade">
-			<tbody>
-				<tr>
-					<td><i class="bp-ig-icon devicon-postgresql-plain"></i></td>					
-					<td>PostgreSQL</td>
-					<td>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-git-plain"></i></td>					
-					<td>GIT</td>
-					<td class="nivel" rel="65">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-html5-plain"></i></td>					
-					<td>HTML5</td>
-					<td class="nivel" rel="80">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-css3-plain"></i></td>					
-					<td>CSS3</td>
-					<td class="nivel" rel="80">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-php-plain"></i></td>					
-					<td>PHP</td>
-					<td class="nivel" rel="80">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>						
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-laravel-plain"></i></td>					
-					<td>Laravel</td>
-					<td class="nivel" rel="40">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<table class="tabelaHabilidade">
-			<tbody>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-codeigniter-plain"></i></td>					
-					<td>Codeigniter</td>
-					<td class="nivel" rel="40">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>					
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-javascript-plain"></i></td>					
-					<td>Javascript</td>
-					<td class="nivel" rel="50">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>							
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-jquery-plain"></i></td>					
-					<td>jQuery</td>
-					<td class="nivel" rel="70">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-o"></i>						
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-nodejs-plain"></i></td>					
-					<td>nodeJS</td>
-					<td class="nivel" rel="15">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-					</td>
-				</tr>				
-				<tr>
-					<td><i class=""></i></td>					
-					<td>Ionic</td>
-					<td class="nivel" rel="40">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>						
-					</td>
-				</tr>
-				<tr>
-					<td><i class="cbp-ig-icon devicon-python-plain"></i></td>					
-					<td>Phyton</td>
-					<td class="nivel" rel="20">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star-half-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>
-						<i class="fa fa-star-o"></i>						
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div id="divHabilidade"><ul></ul></div>
+
 		<br clear="all">
 		<br clear="all">
 		
 		<h1 class="secoes"><i class="fa fa-graduation-cap"></i> CURSOS/GRADUAÇÃO </h1>
-		<table id="tabelaGraduacao">
-			<thead>
-				<tr>
-					<th>PERÍODO</th>
-					<th>INSTITUIÇÃO</th>
-					<th>TITULAÇÃO</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td class="ano">1997-1999</td>
-					<td class="instituicao">Colégio Santa Margarida</td>
-					<td class="titulo">Téc. Informatica</td>
-				</tr>				
-				<tr>
-					<td class="ano">2013</td>
-					<td class="instituicao">Universidade Católica de Pelotas</td>
-					<td class="titulo">Projetista de Sistemas de Informação</td>
-				</tr>
-				<tr>
-					<td class="ano">2013</td>
-					<td class="instituicao">Universidade Católica de Pelotas</td>
-					<td class="titulo">Programador de Computadores</td>
-				</tr>				
-				<tr>
-					<td class="ano">2010-2013</td>
-					<td class="instituicao">Universidade Católica de Pelotas</td>
-					<td class="titulo">Bacharel Ciência da Computação</td>
-				</tr>
-				<tr>
-					<td class="ano">09/2014</td>
-					<td class="instituicao">TargetTrust</td>
-					<td class="titulo">Orientação a objetos com UML</td>
-				</tr>				
-				<tr>
-					<td class="ano">09/2014</td>
-					<td class="instituicao">TargetTrust</td>
-					<td class="titulo">POO</td>
-				</tr>
-				<tr>
-					<td class="ano">10/2014</td>
-					<td class="instituicao">TargetTrust</td>
-					<td class="titulo">Padrões web 2.0</td>
-				</tr>
-				<tr>
-					<td class="ano">10/2014</td>
-					<td class="instituicao">TargetTrust</td>
-					<td class="titulo">Javascript</td>
-				</tr>				
-				<tr>
-					<td class="ano">05/2016</td>
-					<td class="instituicao">SISNEMA</td>
-					<td class="titulo">Desenvolvedor ANDROID</td>
-				</tr>				
-				<tr>
-					<td class="ano">07/2018-07/2019</td>
-					<td class="instituicao">UNOPAR</td>
-					<td class="titulo">Pós Graduação em Tecnologias Para Aplicações Web</td>
-				</tr>
-			</tbody>
-		</table>
+		<div id="divGraduacao">
+			<table id="tabelaGraduacao">
+				<thead>
+					<tr>
+						<th>PERÍODO</th>
+						<th>CARGA<br>HORARIA</th>
+						<th>INSTITUIÇÃO</th>
+						<th>TITULAÇÃO</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>			
+		</div>
+
 		<br clear="all">
 		<h1 class="secoes"><i class="glyphicon glyphicon-share-alt"></i> EXPERIÊNCIA </h1>	
-		<table id="tabelaExperiencia">
-			<tbody>
-				<tr>
-					<td>07/2014</td>					
-					<td>EMATER/RS - Analista de Sistemas</td>
-					<td>
-						<ul>
-							<li>Banco de Dados(MSSQL);</li>
-							<li>Banco de Dados(MySQL);</li>
-							<li>Linguagem PHP;</li>
-							<li>Linguagem Javascript;</li>
-							<li>Responsável do sistema PBSM(Plano Brasil Sem Miséria);</li>
-							<li>Responsável do sistema PGS(Programa Gestão Sustentável);</li>
-							<li>Responsável do sistema SISFROTA, controle de veículos da empresa;</li>
-							<li>Responsável do sistema SISORG, controle das solicitações de licenças dos funcionários.</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td>12/2013<br>06/2014</td>					
-					<td>Mertins & Mertins - Analista de Sistemas</td>
-					<td>
-						<ul>
-							<li>Banco de Dados(PostgreSQL);</li>
-							<li>Linguagem JAVA;</li>
-							<li>Participação na elaboração do sistema para ABCCC(Associação Brasileira de Criadores de Cavalos Crioulos);</li>
-							<li>Participação na elaboração do sistema para o PNI(Prêmio Nacional de Inovação).</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td>10/2012<br>12/2013</td>					
-					<td>CEEE - Estagiário de Analise de Sistemas</td>
-					<td>
-						<ul>
-							<li>Estágio como Desenvolvedor;</li>
-							<li>Banco de Dados(MySQL);</li>
-							<li>Linguagem PHP;</li>
-							<li>Desenvolvimento de um sistema para controle de usuários, requisições de material e custeio, estoque, frota de veículos.</li>
-						</ul>
-					</td>
-				</tr>				
-				
-				<tr>
-					<td>05/2012<br>07/2012</td>					
-					<td>Gestor SA - Programador Junior</td>
-					<td>
-						<ul>
-							<li>Sistema empresarial no ramo de franquias;</li>
-							<li>Banco de Dados(Oracle/Postgres);</li>
-							<li>Linguagem VisualBasic;</li>
-							<li>Linguagem Genexus.</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td>2011<br>2012</td>					
-					<td>Victus Tecnologia e Informação - Técnico em Informática</td>
-					<td>
-						<ul>
-							<li>Empresa presta suporte técnico para ECT – Empresa Brasileira de Correios e Telégrafos(Correios);</li>
-							<li>Assistência nos sistemas Windows 2000/XP e Linux;</li>
-							<li>Ferramentas Microsoft Office;</li>
-							<li>Configurações/permissões de usuários e e-mails;</li>
-							<li>Instalação e configuração de sistemas operacionais, softwares e aplicativos;</li>
-							<li>Realização de suporte, diagnóstico e solução de problemas de software de estações de trabalho;</li>
-							<li>Suporte a usuários de microinformática local e remoto;</li>
-							<li>Experiência em hardware (notebooks, impressoras, desktops, periféricos, roteadores);</li>
-							<li>Configuração de mecanismos de rede instalação em infra-estrutura de rede lógica (cabeamento estruturado);</li>
-							<li>Conhecimentos de Windows 2000/2003 e MS-Office (Word, Excel, Outlook, Access, Internet Explorer e Power Point);</li>
-							<li>Noções Active Directory Cumprimento de SLA.</li>			
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div id="divExperiencia"></div>
+		<table id="tabelaExperiencia"><tbody></tbody></table>
 
 		<br clear="all">
 
 		<h1 class="secoes"><i class="glyphicon glyphicon-map-marker"></i> CONTATO</h1>
-		<table id="tabelaContato">
-			<tr>
-				<td rel="icone"><i class="fa fa-link fa-fw fa-2x"></td>
-				<td rel="valor">https://scarapa.github.io/curriculum/</td>
-			</tr>
-			<tr>
-				<td rel="icone"><i class="fa fa-envelope fa-fw fa-2x"></i> </td>
-				<td rel="valor"><span>robertoaa1981@gmail.com</span></td>
-			</tr>
-			<tr>
-				<td rel="icone"><i class="fa fa-linkedin-square fa-fw fa-2x"></i> </td>
-				<td rel="valor">linkedin.com/in/roberto-alam-95522424/</td>
-			</tr>
-			<tr>
-				<td rel="icone"><i class="fa fa-skype fa-fw fa-2x"></i> </td>
-				<td rel="valor"><label><span>robertoalam</span></label>	</td>
-			</tr>
-		</table>
+		<div id="divContato"></div>
+		<table id="tabelaContato"><tbody></tbody></table>
 		<br clear="all">
 		
 
 	</div>
 		<script>
 		$(document).ready(function() {
+			function ajaxGenericoGet(url, variaveis) {
+                var tmp = [];
+                $.ajax({
+                    'async': false,
+                    'type': "GET",
+                    'global': false,
+                    'dataType': 'html',
+                    'url': url,
+                    'data': variaveis,
+                    'beforeSend': function () {
+                        //abrirCortina();
+                    },
+                    'success': function (data) {
+                        return tmp = jQuery.parseJSON(data)
+                    }, 'error': function (jqXHR, exception) {
+                        //console.log('ERRO');
+                        var msg = '';
+                        if (jqXHR.status === 0) {
+                            msg = 'Not connect.\n Verify Network.';
+                        } else if (jqXHR.status == 404) {
+                            msg = 'Requested page not found. [404]';
+                        } else if (jqXHR.status == 500) {
+                            msg = 'Internal Server Error [500].';
+                        } else if (exception === 'parsererror') {
+                            msg = 'Requested JSON parse failed.';
+                        } else if (exception === 'timeout') {
+                            msg = 'Time out error.';
+                        } else if (exception === 'abort') {
+                            msg = 'Ajax request aborted.';
+                        } else {
+                            msg = 'Uncaught Error.\n' + jqXHR.responseText;
+                        }
+                        alert(msg)
+                    }
+                });
+                return tmp;
+            }
 
-			habilidades();
-			function habilidades(){
+            let loadObjeto = ajaxGenericoGet('dados.json');
+            loadObjeto = loadObjeto.dados;
+			//console.log(loadObjeto[0])
+            let nome = loadObjeto[0].nome;
+            let sobre = loadObjeto[0].sobre;
+            let imagem = loadObjeto[0].imagem;
+            let habilidade = loadObjeto[0].habilidade;
+            let graduacao = loadObjeto[0].graduacao;
+            let experiencia = loadObjeto[0].experiencia;
+            let contato = loadObjeto[0].contato;
+
+            //CARREGAR HTML
+            let habilidades = "";
+            for(var k = 0;k < habilidade.length;k++){
+            	habilidades += "\n\
+					<li class='col-lg-3 col-md-3 col-sm-4 col-xs-6' title='"+habilidade[k].descricao+"'>\n\
+						<div class='progress active'>\n\
+							<div data-value='"+habilidade[k].nivel+"' role='progressbar' class='progress-bar' title='"+habilidade[k].nome+"'></div>\n\
+							<img src='img/black.png'>\n\
+						</div>\n\
+						<label>\n\
+							<i class='"+habilidade[k].icone+"'></i>\n\
+							<span>"+habilidade[k].nome+"</span>\n\
+						</label>\n\
+					</li>";
+            }
+
+			let graduacoes = "";
+            for(var k = 0;k < graduacao.length;k++){
+            	graduacoes += "\n\
+            	<tr'>\n\
+            		<td>"+graduacao[k].periodo+"</td>\n\
+            		<td>"+graduacao[k].tempo+"</td>\n\
+            		<td>"+graduacao[k].instituicao+"</td>\n\
+            		<td>"+graduacao[k].titulacao+"</td>\n\
+        		</tr>";
+            }
+
+			let experiencias = "";
+            for(var k = 0;k < experiencia.length;k++){
+            	let responsabilidades = "";
+            	for(var j = 0;j < experiencia[k].responsabilidades.length;j++){
+            		responsabilidades += "<li>"+experiencia[k].responsabilidades[j]+"</li>";
+        		}
+            	experiencias += "\n\
+            	<tr'>\n\
+            		<td>"+experiencia[k].periodo+"</td>\n\
+            		<td>"+experiencia[k].instituicao+"</td>\n\
+            		<td>"+experiencia[k].titulacao+"</td>\n\
+            		<td><ul>"+responsabilidades+"</ul></td>\n\
+        		</tr>";
+            }
+
+			let contatos = "";
+            for(var k = 0;k < contato.length;k++){
+            	contatos += "\n\
+					<tr>\n\
+						<td rel='icone'><i class='"+contato[k].icone+"'></td>\n\
+						<td rel='valor'>"+contato[k].valor+"</td>\n\
+					</tr>";
+            }
+
+            $("#sobre").html(sobre)
+            $("#divHabilidade ul").html(habilidades)
+            $("#tabelaGraduacao tbody").html(graduacoes)
+            $("#tabelaExperiencia tbody").html(experiencias)
+            $("#tabelaContato tbody").html(contatos)
+
+			carregarHabilidades();
+			function carregarHabilidades(){
 				$('.progress-bar').each(function(){
 					console.log( $(this).siblings() )
 					
@@ -484,25 +204,7 @@
 					$(this).siblings().css({'width':valor+'%'})
 					$(this).addClass(classe)
 				});
-				/*
-				$('.icons-red').each(function(){
-					height = $(this).height();
-					$(this).animate({
-						height: 14,
-					}, 2000);
-				});
-				*/
 			};
-
-			/*
-			var resize;
-			window.onresize = function() {
-				clearTimeout(resize);
-				resize = setTimeout(function(){
-					callback();
-				}, 100);
-			};
-			*/
 		});
 		</script>	
 	</body>

@@ -1,0 +1,80 @@
+.print {display:none;}
+.no-print { display:block; }
+
+.secoes{width:100%;border-bottom:4px solid #333}
+
+#divHabilidade{}
+#divHabilidade ul {margin-left:0px;padding-left:0px;float:left;width:100%}
+#divHabilidade ul li {margin-left:0px;padding-left:0px;list-style:none;float:left;}
+#divHabilidade div ul li div { float:left !important;width:50%;}
+#divHabilidade ul li div img{ display:none;}
+#divHabilidade ul li label{ float:left; margin-left:10px;margin-top:-40px !important; top:-20px }
+#divHabilidade ul li label i{ float:left;}
+#divHabilidade ul li label i{ float:left;margin-top:3px}
+#divHabilidade ul li label i.cbp-ig-icon {font-size:130%;margin-top:0px}
+#divHabilidade ul li label span{ float:left;margin-left:5px}
+#divHabilidade ul li label span.percencutal{ float:left;margin-left:5px}
+
+.progress.active{border: 1px solid gray}
+@media print{
+	#foto{display:none;}
+
+	.progress-bar{display:none;}
+	#divHabilidade { float:left;width:100%}
+	#divHabilidade ul {margin-left:0px;padding-left:0px;float:left;width:100%}
+	#divHabilidade ul li {
+		margin-left:0px;
+		padding-left:0px;
+		list-style:none;
+		float:left;
+		width:24.5%
+	}
+	#divHabilidade ul li div img{ display:table;}
+	#divHabilidade ul li label{ 
+		float:left; 
+		margin-left:10px;
+		margin-top:-40px !important; 
+		top:-20px ;
+	}
+	#divHabilidade ul li label i{ 
+		float:left;
+		margin-top:3px;
+		color:white !important;
+		text-shadow: 2px 2px black !important;
+		z-index:999;
+		position:absolute;
+	}
+	#divHabilidade ul li label span{ float:left;margin-left:5px;color:white !important;text-shadow: 2px 2px black !important;z-index:999;position:absolute;}
+}
+
+#tabelaGraduacao {border-collapse: collapse;}
+#tabelaGraduacao > thead > tr > th{text-align: center}
+#tabelaGraduacao > tbody > tr td{border-bottom:1px solid #eee;padding:1px 5px;}
+#tabelaGraduacao > tbody > tr td:nth-child(1) {text-align: center;}
+#tabelaGraduacao > tbody > tr td:nth-child(2) {text-align: center;}
+#tabelaGraduacao > tbody > tr td:nth-child(3) {text-align: right;padding:2px 5px;}
+#tabelaGraduacao > tbody > tr td:nth-child(4) {text-align: left;padding:2px 5px;}
+
+#tabelaExperiencia {border-collapse: collapse;}
+#tabelaExperiencia > tbody > tr td{border-bottom:1px solid #eee;}
+#tabelaExperiencia > tbody > tr td:nth-child(1) {
+	text-align: center;
+	vertical-align: top !important;
+}
+#tabelaExperiencia > tbody > tr td:nth-child(2) {
+	vertical-align: top !important;
+	text-align: center;
+	padding:2px 5px;
+	font-family: 'Lucida Sans',sans-serif;
+	font-weight: bold;
+}
+#tabelaExperiencia > tbody > tr td:nth-child(3) {
+	vertical-align: top !important;
+	text-align: center;
+	padding:2px 5px;
+	font-family: 'Lucida Sans',sans-serif;
+	font-style: italic;
+}
+
+#tabelaContato {float:left;margin-right: 15px}
+#tabelaContato tbody tr td {padding:5px 2px;}

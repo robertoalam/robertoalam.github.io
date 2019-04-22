@@ -2,52 +2,94 @@
 	"dados": 
 	[{
 		"nome":"Roberto Aguiar Alam",
-		"sobre":"Me chamo Roberto Aguiar Alam, natural da cidade de Porto Alegre, boa parte da minha vida acadêmica e profissional foi na cidade de Pelotas. Meu primeiro contato com a informática foi no curso técnico. Me considero uma pessoa proativa, a insegurança do desconhecido não me desmotiva, pelo contrário, me serve de combustível para buscar cada vez mais conhecimento , assim enfretando as tarefas do dia a dia de uma maneira mais positiva. Outra qualidade que creio possuir, é a de ser uma pessoa colaborativa , isso me ajudou a trabalhar com uma gama muito grande de pessoas. ",
-		"contato":[
-			{"nome":"pagina","icone":"","valor":"ww"},
-			{"nome":"email","icone":"","valor":"robertoaa1981@gmail.com"},
-			{"nome":"linkedin","icone":"","valor":"linkedin.com/in/roberto-alam-95522424/"},
-			{"nome":"skype","icone":"","valor":"scarapa"}
+		"imagem":"<img src='img/beto.jpg' class='img-thumbnail' style='width:150px;float:left;margin:5px 15px 15px 15px'>",
+		"sobre":"Me chamo Roberto Aguiar Alam, natural da cidade de Porto Alegre, porém boa parte da minha vida acadêmica e profissional foi na cidade de Pelotas.<br/> Meu primeiro contato com a informática foi no ano de 1997 no curso técnico em informática,no colégio Santa Margarida. Naquela época os sistemas/programas eram feitos em <b>CLIPPER</b> e/ou <b>PASCAL</b> e tinham a aparência do MS-DOS ou do terminal linux, as impressoras eram matriciais, faziam impressões, acredite se quizer, com a impressionante velocidade de uma folha por minuto e a internet ainda estava em propriedade das instituições de ensino federais e particular ou departamentos do governo, desde então muita coisa mudou.<br><br>Considero-me uma pessoa proativa, a insegurança do desconhecido não me desmotiva, pelo contrário, me serve de combustível para buscar cada vez mais conhecimento, tal conhecimento me traz mais segurança pra enfrentar as tarefas rotineiras do dia a dia de uma maneira mais positiva.<br><br>Outra qualidade que creio possuir, é a de ser uma pessoa colaborativa, essa qualidade me ajuda a trabalhar com uma gama muito grande de pessoas, e de uma maneira muito tranquila e positiva.",
+		"habilidade":[
+			{"nome":"Apache","nivel":35,"icone":"cbp-ig-icon devicon-apache-plain"},
+			{"nome":"Linux/Debian","nivel":50,"icone":"cbp-ig-icon devicon-linux-plain"},
+			{"nome":"Docker","nivel":25,"icone":"cbp-ig-icon devicon-docker-plain"},
+			{"nome":"Virtual Box","nivel":55,"icone":"cbp-ig-icon devicon-docker-plain"},
+			{"nome":"SQLServer","nivel":70,"icone":"fa fa-database","descricao":"Banco de dados Microsoft"},
+			{"nome":"MySQL","nivel":70,"icone":"cbp-ig-icon devicon-mysql-plain","descricao":"Banco de dados open source"},
+			{"nome":"PostgreSQL","nivel":70,"icone":"cbp-ig-icon devicon-postgresql-plain"},
+			{"nome":"GIT","nivel":65,"icone":"cbp-ig-icon devicon-git-plain"},
+			{"nome":"HTML5","nivel":85,"icone":"cbp-ig-icon devicon-html5-plain"},
+			{"nome":"CSS3","nivel":80,"icone":"cbp-ig-icon devicon-css3-plain"},
+			{"nome":"PHP","nivel":90,"icone":"cbp-ig-icon devicon-php-plain"},
+			{"nome":"Cake","nivel":25,"icone":"","descricao":"Framework PHP"},
+			{"nome":"Laravel","nivel":70,"icone":"cbp-ig-icon devicon-laravel-plain","descricao":"Framework PHP"},
+			{"nome":"Codeigniter","nivel":40,"icone":"cbp-ig-icon devicon-codeigniter-plain","descricao":"Framework PHP"},
+			{"nome":"Javascript","nivel":50,"icone":"cbp-ig-icon devicon-javascript-plain"},
+			{"nome":"jQuery","nivel":70,"icone":"cbp-ig-icon devicon-jquery-plain","descricao":"Biblioteca javaScript"},
+			{"nome":"nodeJS","nivel":15,"icone":"cbp-ig-icon devicon-nodejs-plain"},
+			{"nome":"Ionic","nivel":35,"icone":""},
+			{"nome":"Python","nivel":15,"icone":"cbp-ig-icon devicon-python-plain"}
 		],
-		"habilidades":[
-			{"nome":"Apache","nota":35,"icone":"cbp-ig-icon devicon-apache-plain"},
-			{"nome":"Linux/Debian","nota":50,"icone":"cbp-ig-icon devicon-linux-plain"},
-			{"nome":"Docker","nota":25,"icone":"cbp-ig-icon devicon-docker-plain"},
-			{"nome":"Virtual Box","nota":50,"icone":"cbp-ig-icon devicon-docker-plain"},
-			{"nome":"SQLServer","nota":70,"icone":"fa fa-database"},
-			{"nome":"MySQL","nota":70,"icone":"cbp-ig-icon devicon-mysql-plain"},
-			{"nome":"PostgreSQL","nota":70,"icone":"cbp-ig-icon devicon-postgresql-plain"},
-			{"nome":"GIT","nota":65,"icone":"cbp-ig-icon devicon-git-plain"},
-			{"nome":"HTML5","nota":85,"icone":"cbp-ig-icon devicon-html5-plain"},
-			{"nome":"CSS3","nota":80,"icone":"cbp-ig-icon devicon-css3-plain"},
-			{"nome":"PHP","nota":90,"icone":"cbp-ig-icon devicon-php-plain"},
-			{"nome":"Laravel","nota":40,"icone":"cbp-ig-icon devicon-laravel-plain"},
-			{"nome":"Codeigniter","nota":40,"icone":"cbp-ig-icon devicon-codeigniter-plain"},
-			{"nome":"Javascript","nota":50,"icone":"cbp-ig-icon devicon-javascript-plain"},
-			{"nome":"jQuery","nota":70,"icone":"cbp-ig-icon devicon-jquery-plain"},
-			{"nome":"nodeJS","nota":15,"icone":"cbp-ig-icon devicon-nodejs-plain"},
-			{"nome":"Ionic","nota":35,"icone":""},
-			{"nome":"Python","nota":15,"icone":"cbp-ig-icon devicon-python-plain"}
-		],
-		"Graduação":[
-			{"periodo":"1997-1999","instituicao":"Colégio Santa Margarida","titulacao":"Téc Informatica","tempo":""},
-			{"periodo":"2013","instituicao":"UCPEL - Universidade Católica de Pelotas","titulacao":"Projetista de Sistemas de Informação","tempo":"460 horas"},
-			{"periodo":"2013","instituicao":"UCPEL - Universidade Católica de Pelotas","titulacao":"Programador de Computadores","tempo":"420 horas"},
-			{"periodo":"2010-2013","instituicao":"UCPEL - Universidade Católica de Pelotas","titulacao":"Bacharel Ciência da Computação","tempo":""},
-			{"periodo":"09/2014","instituicao":"TargetTrust","titulacao":"Orientação a objetos com UML","tempo":"20 horas"},
-			{"periodo":"09/2014","instituicao":"TargetTrust","titulacao":"PHP - Orientados a objetos","tempo":"20 horas"},
+		"graduacao":[
+			{"periodo":"07/2017-07/2018","instituicao":"UNOPAR","titulacao":"Pós Graduação em Tecnologias Para Aplicações Web","tempo":"360 horas"},
+			{"periodo":"2016","instituicao":"SISNEMAS","titulacao":"Desenvolvedor ANDROID","tempo":"20 horas"},
 			{"periodo":"10/2014","instituicao":"TargetTrust","titulacao":"Padrões web 2.0","tempo":"20 horas"},
 			{"periodo":"10/2014","instituicao":"TargetTrust","titulacao":"Javascript","tempo":"20 horas"},
-			{"periodo":"2016","instituicao":"SISNEMAS","titulacao":"Desenvolvedor ANDROID","tempo":"20 horas"},
-			{"periodo":"07/2017-07/2018","instituicao":"UNOPAR","titulacao":"Pós Graduação em Tecnologias Para Aplicações Web","tempo":"360 horas"}
+			{"periodo":"09/2014","instituicao":"TargetTrust","titulacao":"Orientação a objetos com UML","tempo":"20 horas"},
+			{"periodo":"09/2014","instituicao":"TargetTrust","titulacao":"PHP - Orientados a objetos","tempo":"20 horas"},
+			{"periodo":"2013","instituicao":"UCPel - Universidade Católica de Pelotas","titulacao":"Projetista de Sistemas de Informação","tempo":"460 horas"},
+			{"periodo":"2013","instituicao":"UCPel - Universidade Católica de Pelotas","titulacao":"Programador de Computadores","tempo":"420 horas"},									
+			{"periodo":"2010-2013","instituicao":"UCPel - Universidade Católica de Pelotas","titulacao":"Bacharel Ciência da Computação","tempo":"4 anos"},
+			{"periodo":"1997-1999","instituicao":"Colégio Santa Margarida","titulacao":"Téc Informatica","tempo":"3 anos"}
 		],
-		"Experiências":[
-			{"instituicao":"CEEE","titulacao":"Estagiario de Analista de Sistemas","periodo":"2012-2013","Resonsabilidades":[""]},
-			{"instituicao":"Gestor SA","titulacao":"Programador Junior","periodo":"07/2012","Resonsabilidades":[""]},
-			{"instituicao":"Victus Tecnologia e Informação","titulacao":"Técnico em Informática","periodo":"2011-2012","Resonsabilidades":[""]},
-			{"instituicao":"Mertins & Mertins","titulacao":"Analista de Sistemas","periodo":"2013-2014","Resonsabilidades":[""]},
-			{"instituicao":"EMATER/RS-ASCAR","titulacao":"Analista de Sistemas","periodo":"07/2014","Resonsabilidades":[""]},
-			{"instituicao":"","titulacao":"","periodo":"","Resonsabilidades":[""]}
+		"experiencia":[
+			{"instituicao":"EMATER/RS-ASCAR","titulacao":"Analista de Sistemas","periodo":"07/2014","responsabilidades":
+				[
+				"Banco de Dados:MSSQL/MySQL",
+				"Linguagem(ns): PHP 5.3 /javaScript ",
+				"Responsável do sistema PBSM(Plano Brasil Sem Miséria)",
+				"Responsável do sistema PGS(Programa Gestão Sustentável)",
+				"Responsável do sistema SISFROTA, controle de veículos da empresa",
+				"Responsável do sistema SISORG, controle das solicitações de licenças dos funcionários",
+				"Responsável do sistema SISTREINA, cadastro de cursos."
+				]
+			},	
+			{"instituicao":"Mertins & Mertins","titulacao":"Analista de Sistemas","periodo":"2013-2014","responsabilidades":
+				[
+			    "Banco de Dados: PostgreSQL",
+			    "Linguagem JAVA",
+			    "Participação na elaboração do sistema para ABCCC(Associação Brasileira de Criadores de Cavalos Crioulos)",
+			    "Participação na elaboração do sistema para o PNI(Prêmio Nacional de Inovação)"
+				]
+			},
+			{"instituicao":"CEEE","titulacao":"Estagiario de Analista de Sistemas","periodo":"2012-2013","responsabilidades":
+				[
+				"Banco de Dados: MySQL",
+				"Linguagem: PHP 5.5",
+				"Desenvolvimento de um sistema para controle de usuários, requisições de material e custeio, estoque, frota de veículos."
+				]
+			},
+			{"instituicao":"Gestor SA","titulacao":"Programador Junior","periodo":"07/2012","responsabilidades":
+				[
+			    "Banco de Dados(Oracle/Postgres)",
+			    "Linguagem VisualBasic"
+				]
+			},
+			{"instituicao":"Victus Tecnologia e Informação","titulacao":"Técnico em Informática","periodo":"2011-2012","responsabilidades":
+				[
+				"Assistência nos sistemas Windows 2000/XP e Linux",
+				"Ferramentas Microsoft Office",
+				"Configurações/permissões de usuários e e-mails",
+				"Instalação e configuração de sistemas operacionais, softwares e aplicativos",
+				"Realização de suporte, diagnóstico e solução de problemas de software de estações de trabalho",
+				"Suporte a usuários de microinformática local e remoto",
+				"Experiência em hardware (notebooks, impressoras, desktops, periféricos, roteadores)",
+				"Configuração de mecanismos de rede instalação em infra-estrutura de rede lógica (cabeamento estruturado)",
+				"Conhecimentos de Windows 2000/2003 e MS-Office (Word, Excel, Outlook, Access, Internet Explorer e Power Point)",
+				"Noções Active Directory Cumprimento de SLA."
+				]
+			}
+		],
+		"contato":[
+			{"nome":"pagina","icone":"fa fa-link fa-fw fa-2x","valor":"https://scarapa.github.io/curriculum/"},
+			{"nome":"email","icone":"fa fa-envelope fa-fw fa-2x","valor":"robertoaa1981@gmail.com"},
+			{"nome":"linkedin","icone":"fa fa-linkedin-square fa-fw fa-2x","valor":"linkedin.com/in/roberto-alam-95522424/"},
+			{"nome":"skype","icone":"fa fa-skype fa-fw fa-2x","valor":"scarapa"}
 		]
 	}]
 }
