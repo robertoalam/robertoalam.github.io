@@ -23,7 +23,8 @@
 			{"nome":"jQuery","nivel":70,"icone":"cbp-ig-icon devicon-jquery-plain","descricao":"Biblioteca javaScript"},
 			{"nome":"nodeJS","nivel":15,"icone":"cbp-ig-icon devicon-nodejs-plain"},
 			{"nome":"Ionic","nivel":35,"icone":""},
-			{"nome":"Python","nivel":15,"icone":"cbp-ig-icon devicon-python-plain"}
+			{"nome":"Python","nivel":15,"icone":"cbp-ig-icon devicon-python-plain"},
+			{"nome":"Angular","nivel":20,"icone":"cbp-ig-icon devicon-angularjs-plain"}
 		],
 		"graduacao":[
 			{"periodo":"07/2017-07/2018","instituicao":"UNOPAR","titulacao":"Pós Graduação em Tecnologias Para Aplicações Web","tempo":"360 horas"},
