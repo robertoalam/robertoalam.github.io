@@ -33,8 +33,6 @@
 				</div>
 			</div>
 			<hr>
-
-			
 			<div id="foto">
 				<img src="img/beto.jpg" class="img-thumbnail" style="width:150px;float:left;margin:5px 15px 15px 15px">
 			</div>
@@ -43,8 +41,10 @@
 		<br claer="all">
 		<br claer="all">
 		
-		<h1 class="secoes"><i class="fa fa-gears"></i> HABILIDADES</h1>		
-		<div id="divHabilidade"><ul></ul></div>
+		<h1 class="secoes"><i class="mdi mdi-database"></i>BASE DE CONHECIMENTO</h1>		
+		<div id="divHabilidade">
+			<ul></ul>
+		</div>
 
 		<br clear="all">
 		<br clear="all">
@@ -134,10 +134,6 @@
             for(var k = 0;k < habilidade.length;k++){
             	habilidades += "\n\
 					<li class='col-lg-3 col-md-3 col-sm-4 col-xs-6' title='"+habilidade[k].descricao+"'>\n\
-						<div class='progress active'>\n\
-							<div data-value='"+habilidade[k].nivel+"' role='progressbar' class='progress-bar' title='"+habilidade[k].nome+"'></div>\n\
-							<img src='img/black.png'>\n\
-						</div>\n\
 						<label>\n\
 							<i class='"+habilidade[k].icone+"'></i>\n\
 							<span>"+habilidade[k].nome+"</span>\n\
