@@ -42,8 +42,12 @@
 		"experiencia":[
 			{"instituicao":"EMATER/RS-ASCAR","titulacao":"Analista de Sistemas","periodo":"07/2014","responsabilidades":
 				[
-				"Banco de Dados:MSSQL/MySQL",
+				"Banco de Dados:MSSQL/MySQL/SQLite",
 				"Linguagem(ns): PHP 5.3 /javaScript ",
+				"Framework Laravel 5.8+",
+				"Framework Ionic 3+",
+				"Responsável pelo Aplicativo - Emater na Expointer",
+				"Responsável pelo Aplicativo Institucional - Emater RS",
 				"Responsável do sistema PBSM(Plano Brasil Sem Miséria)",
 				"Responsável do sistema PGS(Programa Gestão Sustentável)",
 				"Responsável do sistema SISFROTA, controle de veículos da empresa",
