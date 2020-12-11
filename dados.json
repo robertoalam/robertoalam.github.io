@@ -10,8 +10,10 @@
 			{"nome":"Cake","nivel":25,"icone":"cbp-ig-icon devicon-php-plain","descricao":"Framework PHP"},
 			{"nome":"Codeigniter","nivel":40,"icone":"cbp-ig-icon devicon-codeigniter-plain","descricao":"Framework PHP"},
 			{"nome":"CSS3","nivel":80,"icone":"cbp-ig-icon devicon-css3-plain"},
+			{"nome":"Dart","nivel":30,"icone":"fa fa-google","descricao":"Dart"},
 			{"nome":"Docker","nivel":25,"icone":"cbp-ig-icon devicon-docker-plain"},
 			{"nome":"Ionic","nivel":35,"icone":"cbp-ig-icon devicon-android-plain","descricao":"Framework Mobile"},
+			{"nome":"Flutter","nivel":30,"icone":"fa fa-android","descricao":"Flutter"},
 			{"nome":"GIT","nivel":65,"icone":"cbp-ig-icon devicon-git-plain","descricao":"Ferramenta para versionamento"},
 			{"nome":"HTML5","nivel":85,"icone":"cbp-ig-icon devicon-html5-plain"},
 			{"nome":"Javascript","nivel":50,"icone":"cbp-ig-icon devicon-javascript-plain"},
@@ -28,6 +30,9 @@
 			{"nome":"SQLServer","nivel":70,"icone":"fa fa-database","descricao":"Banco de dados Microsoft"}
 		],
 		"graduacao":[
+			{"periodo":"07/2020-09/2020","instituicao":"IGTI","titulacao":"Bootcam Desenvolvedor Mobile Apps","tempo":"148 horas"},
+			{"periodo":"2020","instituicao":"OmniStack","titulacao":"Semana OmniStack 11º","tempo":"10 horas"},
+			{"periodo":"2020","instituicao":"Unipampa","titulacao":"Curso de Introdução a Segurança da Informação e de Sistemas","tempo":"28 horas"},
 			{"periodo":"07/2017-07/2018","instituicao":"UNOPAR","titulacao":"Pós Graduação em Tecnologias Para Aplicações Web","tempo":"360 horas"},
 			{"periodo":"2016","instituicao":"SISNEMAS","titulacao":"Desenvolvedor ANDROID","tempo":"20 horas"},
 			{"periodo":"10/2014","instituicao":"TargetTrust","titulacao":"Padrões web 2.0","tempo":"20 horas"},
@@ -92,7 +97,7 @@
 			}
 		],
 		"contato":[
-			{"nome":"pagina","icone":"fa fa-link fa-fw fa-2x","valor":"https://scarapa.github.io/curriculum/"},
+			{"nome":"pagina","icone":"fa fa-link fa-fw fa-2x","valor":"https://roberto.github.io/curriculum/"},
 			{"nome":"email","icone":"fa fa-envelope fa-fw fa-2x","valor":"robertoaa1981@gmail.com"},
 			{"nome":"linkedin","icone":"fa fa-linkedin-square fa-fw fa-2x","valor":"linkedin.com/in/roberto-alam-95522424/"},
 			{"nome":"skype","icone":"fa fa-skype fa-fw fa-2x","valor":"scarapa"}
